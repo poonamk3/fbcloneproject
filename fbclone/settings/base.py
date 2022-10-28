@@ -44,7 +44,6 @@ DEBUG = config('DEBUG',default=False, cast=bool)
 
 # SECURITY WARNING: keep the secret key used in production secret!
 # SECRET_KEY = 'django-insecure-c(!f8nxojiz&129k$oor4sck^_^6v#563_rcncz2(k$$^mf*!r'
-# SECRET_KEY = os.environ['SECRET_KEY']
 SECRET_KEY = os.environ['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
@@ -52,6 +51,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # ALLOWED_HOSTS = []
 # ALLOWED_HOSTS = ['*']
 # DEBUG = False
+ALLOWED_HOSTS = ['fbcloneproject.herokuapp.com']
 ALLOWED_HOSTS = ['fbcloneproject.herokuapp.com','localhost']
 
 
