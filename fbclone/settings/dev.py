@@ -4,7 +4,7 @@ DATABASES = {
 
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'newfb',
+        'NAME': 'fbclonedb',
         'USER': 'postgres',
         'PASSWORD': 'psql',
         'HOST': 'localhost',
