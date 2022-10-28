@@ -50,9 +50,9 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # DEBUG = True
 
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['*']
+# ALLOWED_HOSTS = ['*']
 # DEBUG = False
-# ALLOWED_HOSTS = ['fbcloneproject.herokuapp.com','localhost']
+ALLOWED_HOSTS = ['fbcloneproject.herokuapp.com','localhost']
 
 
 # Application definition
